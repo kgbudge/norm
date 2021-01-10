@@ -1,0 +1,14 @@
+name White Mountain Tpc
+SiO2 54
+TiO2 1.92
+Al2O3 17.6
+Fe2O3 1.92
+FeO 3.2
+MnO 0.13
+MgO 1.12
+CaO 4.26
+Na2O 4.51
+K2O 4.6
+P2O5 1.1
+S 0
+Cr2O3 0

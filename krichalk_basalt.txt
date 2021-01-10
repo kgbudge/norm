@@ -1,0 +1,12 @@
+name K-rich alkaline basalt
+SiO2 42.4
+TiO2 4.1
+Al2O3 14.1
+Fe2O3 5.8
+FeO 8.5
+MnO 0.2
+MgO 6.7
+CaO 11.9
+Na2O 2.8
+K2O 2
+P2O5 0.6

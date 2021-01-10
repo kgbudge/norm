@@ -1,0 +1,14 @@
+name San Felipe flow 1
+SiO2 50.58
+TiO2 1.44
+Al2O3 16.44
+Fe2O3 4.98
+FeO 5.67
+MnO 0.16
+MgO 6.38
+CaO 8.79
+Na2O 3.35
+K2O 0.84
+P2O5 0.3
+S 0
+Cr2O3 0

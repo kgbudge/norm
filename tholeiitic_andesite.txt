@@ -1,0 +1,14 @@
+name tholeiitic andesite
+SiO2 58.3
+TiO2 1.7
+Al2O3 13.8
+Fe2O3 3.4
+FeO 6.5
+MnO 0.2
+MgO 2.3
+CaO 5.6
+Na2O 3.9
+K2O 1.9
+P2O5 0.5
+S 0
+Cr2O3 0

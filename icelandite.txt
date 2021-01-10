@@ -1,0 +1,12 @@
+name icelandite
+SiO2 61.8
+TiO2 1.3
+Al2O3 15.4
+Fe2O3 2.3
+FeO 5.8
+MnO 0.2
+MgO 1.8
+CaO 5
+Na2O 0.188251
+K2O 1.6
+P2O5 0.4

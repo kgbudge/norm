@@ -1,0 +1,14 @@
+name back arc basalt
+SiO2 51.3
+TiO2 0.69
+Al2O3 17.12
+Fe2O3 0
+FeO 7.08
+MnO 0.14
+MgO 7.55
+CaO 13.33
+Na2O 2.14
+K2O 0.5
+P2O5 0
+S 0
+Cr2O3 0

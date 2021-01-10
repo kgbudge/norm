@@ -1,0 +1,8 @@
+Debug
+config.h.in
+autom4te.cache
+.anjuta
+.anjuta_sym_db.db
+aclocal.m4
+Makefile.in
+

@@ -1,0 +1,14 @@
+name brushy mountain 
+SiO2 57.4
+TiO2 1.24
+Al2O3 16.53
+Fe2O3 2.35
+FeO 4.37
+MnO 0.07
+MgO 3.99
+CaO 6.05
+Na2O 4.08
+K2O 2.54
+P2O5 0.48
+S 0
+Cr2O3 0

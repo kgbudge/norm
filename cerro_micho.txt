@@ -1,0 +1,14 @@
+name 
+SiO2 0
+TiO2 0
+Al2O3 0
+Fe2O3 0
+FeO 0
+MnO 0
+MgO 0
+CaO 0
+Na2O 0
+K2O 0
+P2O5 0
+S 0
+Cr2O3 0

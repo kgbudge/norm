@@ -1,0 +1,12 @@
+name comendite
+SiO2 75.2
+TiO2 0.1
+Al2O3 12
+Fe2O3 0.9
+FeO 1.2
+MnO 0.1
+MgO 0
+CaO 0.3
+Na2O 4.8
+K2O 4.7
+P2O5 0.1

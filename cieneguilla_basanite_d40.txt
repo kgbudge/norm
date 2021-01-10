@@ -1,0 +1,14 @@
+name Cieneguilla D40 basanite
+SiO2 42.9
+TiO2 2.31
+Al2O3 12.2
+Fe2O3 2
+FeO 12
+MnO 0.2
+MgO 12.3
+CaO 11.1
+Na2O 2.79
+K2O 0.63
+P2O5 0.78
+S 0
+Cr2O3 0

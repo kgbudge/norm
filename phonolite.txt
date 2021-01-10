@@ -1,0 +1,12 @@
+name Phonolite
+SiO2 60.6
+TiO2 0
+Al2O3 18.3
+Fe2O3 2.7
+FeO 1.2
+MnO 0.2
+MgO 0.1
+CaO 0.8
+Na2O 8.9
+K2O 5.1
+P2O5 0

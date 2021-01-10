@@ -1,0 +1,12 @@
+name mugearite
+SiO2 49.7
+TiO2 2.1
+Al2O3 17
+Fe2O3 3.4
+FeO 9
+MnO 0.3
+MgO 2.8
+CaO 5.5
+Na2O 5.8
+K2O 1.9
+P2O5 0.5

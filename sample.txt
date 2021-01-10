@@ -1,0 +1,13 @@
+name Sample
+SiO2 53.8
+TiO2 2.0
+Al2O3 13.9
+Fe2O3 2.6
+FeO 9.3
+MnO 0.2
+MgO 4.1
+CaO 7.9
+Na2O 3.0
+K2O 1.5
+P2O5 0.4
+

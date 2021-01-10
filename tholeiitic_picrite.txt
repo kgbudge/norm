@@ -1,0 +1,12 @@
+name Tholeiitic picrite
+SiO2 46.4
+TiO2 2
+Al2O3 8.5
+Fe2O3 2.5
+FeO 9.8
+MnO 0.2
+MgO 20.8
+CaO 7.4
+Na2O 1.6
+K2O 0.3
+P2O5 0.2

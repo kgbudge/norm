@@ -1,0 +1,14 @@
+name kilauea #1
+SiO2 48.05
+TiO2 2.04
+Al2O3 10.33
+Fe2O3 1.34
+FeO 10.19
+MnO 0.17
+MgO 17.39
+CaO 8.14
+Na2O 1.66
+K2O 0.36
+P2O5 0.19
+S 0
+Cr2O3 0

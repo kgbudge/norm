@@ -1,0 +1,14 @@
+name analcitite
+SiO2 49
+TiO2 0.7
+Al2O3 13
+Fe2O3 4.9
+FeO 4.5
+MnO 0.1
+MgO 8.3
+CaO 11.5
+Na2O 3.9
+K2O 3
+P2O5 1.1
+S 0
+Cr2O3 0

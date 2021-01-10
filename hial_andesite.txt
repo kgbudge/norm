@@ -1,0 +1,12 @@
+name high-Al andesite
+SiO2 58.6
+TiO2 0.8
+Al2O3 17.4
+Fe2O3 3.2
+FeO 3.5
+MnO 0.1
+MgO 3.3
+CaO 6.3
+Na2O 0.162467
+K2O 2
+P2O5 0.2

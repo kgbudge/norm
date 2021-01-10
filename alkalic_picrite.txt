@@ -1,0 +1,12 @@
+name alkalic picrite
+SiO2 46.6
+TiO2 1.8
+Al2O3 8.2
+Fe2O3 1.2
+FeO 9.8
+MnO 0.1
+MgO 19.6
+CaO 9.4
+Na2O 1.6
+K2O 1.2
+P2O5 0.3

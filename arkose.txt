@@ -1,0 +1,14 @@
+name arkose
+SiO2 77.1
+TiO2 0
+Al2O3 8.7
+Fe2O3 1.5
+FeO 0.7
+MnO 0
+MgO 0.5
+CaO 2.7
+Na2O 1.5
+K2O 2.8
+P2O5 0
+S 0
+Cr2O3 0

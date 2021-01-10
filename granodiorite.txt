@@ -1,0 +1,14 @@
+name Granodiorite
+SiO2 66.09
+TiO2 0.54
+Al2O3 15.73
+Fe2O3 0
+FeO 3.97
+MnO 0.08
+MgO 1.74
+CaO 3.83
+Na2O 3.75
+K2O 2.73
+P2O5 0.18
+S 0
+Cr2O3 0

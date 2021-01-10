@@ -1,0 +1,12 @@
+name high-Al basalt
+SiO2 49.1
+TiO2 1.5
+Al2O3 17.7
+Fe2O3 2.8
+FeO 7.2
+MnO 0.1
+MgO 6.9
+CaO 9.9
+Na2O 0.133297
+K2O 0.7
+P2O5 0.3

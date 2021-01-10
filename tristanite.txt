@@ -1,0 +1,12 @@
+name tristanite
+SiO2 55.8
+TiO2 1.8
+Al2O3 19
+Fe2O3 2.6
+FeO 3.1
+MnO 0.1
+MgO 2
+CaO 4.5
+Na2O 5.2
+K2O 4.1
+P2O5 0.4

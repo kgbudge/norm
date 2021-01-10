@@ -1,0 +1,14 @@
+name White Mountain basalt
+SiO2 46.3
+TiO2 2.56
+Al2O3 15.9
+Fe2O3 2.5
+FeO 10
+MnO 0.17
+MgO 7.46
+CaO 7.52
+Na2O 4
+K2O 2.31
+P2O5 0.78
+S 0
+Cr2O3 0

@@ -1,0 +1,14 @@
+name Granite A
+SiO2 73.81
+TiO2 0.26
+Al2O3 12.4
+Fe2O3 0
+FeO 2.43
+MnO 0.06
+MgO 0.2
+CaO 0.75
+Na2O 4.07
+K2O 4.65
+P2O5 0.04
+S 0
+Cr2O3 0

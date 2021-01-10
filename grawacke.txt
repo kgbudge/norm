@@ -1,0 +1,14 @@
+name graywacke
+SiO2 66.7
+TiO2 0
+Al2O3 13.5
+Fe2O3 1.6
+FeO 3.5
+MnO 0
+MgO 2.1
+CaO 2.5
+Na2O 2.9
+K2O 2
+P2O5 0
+S 0
+Cr2O3 0

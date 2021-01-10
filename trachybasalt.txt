@@ -1,0 +1,12 @@
+name trachybasalt
+SiO2 46.5
+TiO2 3.1
+Al2O3 16.7
+Fe2O3 4.1
+FeO 7.3
+MnO 0.2
+MgO 4.6
+CaO 9.4
+Na2O 3.8
+K2O 3.1
+P2O5 0.9
