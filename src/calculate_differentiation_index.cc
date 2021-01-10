@@ -164,11 +164,11 @@ void update()
 	try
 	{
 		calculate_CIPW_norm();
-		
-		text_DI->set_text(tostring(calculate_differentiation_index(), 2));
+
+		text_DI->set_text(calculate_differentiaion_index());
 		// calculation of differentiation index also normalizes composition for
 		// mineral output box
-		
+
 		string sMgFe = tostring(wMgFe, 2);
 
 		if (ap>0.0)
@@ -176,7 +176,7 @@ void update()
 			iter = list_store_CIPW->append();
 			row = *iter;
 			row[m_Columns.m_col_text] = "apatite";
-			row[m_Columns.m_col_number] = (int)(100*ap+0.5)/100.0;
+			row[m_Columns.m_col_number] = ap;
 		}
 
 		if (il>0.0)
@@ -184,7 +184,7 @@ void update()
 			iter = list_store_CIPW->append();
 			row = *iter;
 			row[m_Columns.m_col_text] = "ilmenite";
-			row[m_Columns.m_col_number] = (int)(100*il+0.5)/100.0;
+			row[m_Columns.m_col_number] = il;
 		}
 
 		if (orc>0.0)
@@ -192,7 +192,7 @@ void update()
 			iter = list_store_CIPW->append();
 			row = *iter;
 			row[m_Columns.m_col_text] = "orthoclase";
-			row[m_Columns.m_col_number] = (int)(100*orc+0.5)/100.0;
+			row[m_Columns.m_col_number] = orc;
 		}
 
 		if (ab>0.0)
@@ -200,7 +200,7 @@ void update()
 			iter = list_store_CIPW->append();
 			row = *iter;
 			row[m_Columns.m_col_text] = "albite";
-			row[m_Columns.m_col_number] = (int)(100*ab+0.5)/100.0;
+			row[m_Columns.m_col_number] = ab;
 		}
 
 		if (an>0.0)
@@ -600,11 +600,11 @@ void update()
 		cm /=4.8;
 		kp /=2.59;
 
-		double total = ap + il + orc + ab + an + nAl2O3 + ac + nNa2O + mt + nFe2O3 + di
+		total = ap + il + orc + ab + an + nAl2O3 + ac + nNa2O + mt + nFe2O3 + di
 			+ nCaO + hy + nSiO2 + ol + tn + nTiO2 + pf
 			+ ne + nK2O + lc + cs + pr + cm + kp;
 
-		double rnorm = 100.0/total;
+		rnorm = 100.0/total;
 
 		ap *= rnorm;
 		il *= rnorm;

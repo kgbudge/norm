@@ -20,7 +20,10 @@ AM_CFLAGS =\
 bin_PROGRAMS = norm
 
 norm_SOURCES = \
-	main.cc
+	main.cc \
+	calculate_molar_composition.cc \
+        calculate_CIPW_norm.cc \
+	calculate_differentiation_index.cc
 
 norm_LDFLAGS = 
 
