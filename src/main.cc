@@ -176,7 +176,7 @@ void update()
 			iter = list_store_CIPW->append();
 			row = *iter;
 			row[m_Columns.m_col_text] = "apatite";
-			row[m_Columns.m_col_number] = (int)(100*ap+0.5)/100.0;
+			row[m_Columns.m_col_number] = ap;
 		}
 
 		if (il>0.0)
@@ -184,7 +184,7 @@ void update()
 			iter = list_store_CIPW->append();
 			row = *iter;
 			row[m_Columns.m_col_text] = "ilmenite";
-			row[m_Columns.m_col_number] = (int)(100*il+0.5)/100.0;
+			row[m_Columns.m_col_number] = il;
 		}
 
 		if (orc>0.0)
@@ -192,7 +192,7 @@ void update()
 			iter = list_store_CIPW->append();
 			row = *iter;
 			row[m_Columns.m_col_text] = "orthoclase";
-			row[m_Columns.m_col_number] = (int)(100*orc+0.5)/100.0;
+			row[m_Columns.m_col_number] = orc;
 		}
 
 		if (ab>0.0)
@@ -200,7 +200,7 @@ void update()
 			iter = list_store_CIPW->append();
 			row = *iter;
 			row[m_Columns.m_col_text] = "albite";
-			row[m_Columns.m_col_number] = (int)(100*ab+0.5)/100.0;
+			row[m_Columns.m_col_number] = ab;
 		}
 
 		if (an>0.0)
