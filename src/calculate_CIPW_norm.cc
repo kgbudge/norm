@@ -105,7 +105,7 @@ void calculate_CIPW_norm()
 	{
 		ab = Al2O3;
 		Al2O3 = 0.0;
-		Na2O -= ab;
+		Na2O = nNa2O - ab;
 	}
 	SiO2 -= 6*ab;
 
@@ -338,39 +338,96 @@ void calculate_CIPW_norm()
 		Q = SiO2;
 	}
 
+	// Calculate weight fraction for differentiation index
 
-	// Convert to weight fraction for differentiation index
+	wap = ap * 336.21;
+	wil = il * 151.75;
+	worc = orc * 556.67;
+	wab = ab * 524.46;
+	wan = an * 278.21;
+	wC = C * 101.96;
+	wac = ac * 462.02;
+	wns = ns * 122.07;  // sodium metasilicate
+	wmt = mt * 231.54;
+	whm = hm * 159.69;
+	wdi = di * (216.55*rMgFe + 248.09*(1-rMgFe));
+	wwo = wo * 116.17;
+	why = hy * (100.39*rMgFe + 131.93*(1-rMgFe));
+	wQ = Q * 60.09;
+	wol = ol * (140.69*rMgFe + 203.77*(1-rMgFe));
+	wtn = tn * 196.07;
+	wru = ru * 79.90;
+	wpf = pf * 135.98;
+	wne = ne * 284.11;
+	wlc = lc * 436.5;
+	wcs = cs * 86.12;
+	wpr = pr * 59.98;
+	wcm = cm * 223.84;
+	wkp = kp * 316.33;
 
-	ap *= 336.21;
-	il *= 151.75;
-	orc *= 556.67;
-	ab *= 524.46;
-	an *= 278.21;
-	C *= 101.96;
-	ac *= 462.02;
-	ns *= 122.07;  // sodium metasilicate
-	mt *= 231.54;
-	hm *= 159.69;
-	di *= (216.55*rMgFe + 248.09*(1-rMgFe));
-	wo *= 116.17;
-	hy *= (100.39*rMgFe + 131.93*(1-rMgFe));
-	Q *= 60.09;
-	ol *= (140.69*rMgFe + 203.77*(1-rMgFe));
-	tn *= 196.07;
-	ru *= 79.90;
-	pf *= 135.98;
-	ne *= 284.11;
-	lc *= 436.5;
-	cs *= 86.12;
-	pr *= 59.98;
-	cm *= 223.84;
-	kp *= 316.33;
+    double total = wap + wil + worc + wab + wan + wC + wac + wns + wmt + whm 
+		+ wdi + wwo + why + wQ + wol + wtn + wru + wpf
+		+ wne + wlc + wcs + wpr + wcm + wkp;
 
-	double total = ap + il + orc + ab + an + C + ac + ns + mt + hm 
+    double rnorm = 100.0/total;
+
+	wap *= rnorm;
+	wil *= rnorm;
+	worc *= rnorm;
+	wab *= rnorm;
+	wan *= rnorm;
+	wC *= rnorm;
+	wac *= rnorm;
+	wns *= rnorm;
+	wmt *= rnorm;
+	whm *= rnorm;
+	wdi *= rnorm;
+	wwo *= rnorm;
+	why *= rnorm;
+	wQ *= rnorm;
+	wol *= rnorm;
+	wtn *= rnorm;
+	wru *= rnorm;
+	wpf *= rnorm;
+	wne *= rnorm;
+	wlc *= rnorm;
+	wcs *= rnorm;
+	wpr *= rnorm;
+	wcm *= rnorm;
+	wkp *= rnorm;
+
+	// Normalize to cation norm
+	
+	ap *= 16./3.;
+	il *= 2;
+	orc *= 10;
+	ab *= 10;
+	an *= 5;
+	C *= 2;
+	ac *= 8;
+	ns *= 3;
+	mt *= 3;
+	hm *= 2;
+	di *= 3;
+	wo *= 2;
+	hy *= 2;
+	Q *= 1;
+	ol *= 3;
+	tn *= 3;
+	ru *= 1;
+	pf *= 2;
+	ne *= 6;
+	lc *= 8;
+	cs *= 3;
+	pr *= 1;
+	cm *= 3;
+	kp *= 6;
+
+    total = ap + il + orc + ab + an + C + ac + ns + mt + hm 
 		+ di + wo + hy + Q + ol + tn + ru + pf
 		+ ne + lc + cs + pr + cm + kp;
 
-	double rnorm = 100.0/total;
+	rnorm = 100.0/total;
 
 	ap *= rnorm;
 	il *= rnorm;

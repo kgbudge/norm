@@ -22,5 +22,5 @@
 //-----------------------------------------------------------------------------//
 double calculate_differentiation_index()
 {
-	return Q+orc+ab+ne+lc+kp;
+	return wQ+worc+wab+wne+wlc+wkp;
 }

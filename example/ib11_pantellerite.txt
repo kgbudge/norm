@@ -1,0 +1,14 @@
+name IB  #11: Pantellerite
+SiO2 69.8
+TiO2 0.45
+Al2O3 7.4
+Fe2O3 2.42
+FeO 6.15
+MnO 0.32
+MgO 0.05
+CaO 0.45
+Na2O 6.7
+K2O 4.3
+P2O5 0.15
+S 0
+Cr2O3 0

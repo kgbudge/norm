@@ -1,0 +1,14 @@
+name IB  #2: Olivine tholeiite
+SiO2 49.16
+TiO2 2.29
+Al2O3 13.33
+Fe2O3 1.31
+FeO 9.71
+MnO 0.16
+MgO 10.41
+CaO 10.93
+Na2O 2.15
+K2O 0.51
+P2O5 0.16
+S 0
+Cr2O3 0

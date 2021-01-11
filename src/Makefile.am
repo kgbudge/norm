@@ -25,7 +25,8 @@ norm_SOURCES = \
         calculate_CIPW_norm.cc \
 	calculate_differentiation_index.cc \
 	TAS_classify.cc \
-	IBC_classify.cc
+	IBC_classify.cc \
+	subalkaline_classify.cc
 
 
 norm_LDFLAGS = 

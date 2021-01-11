@@ -69,7 +69,7 @@ EXTERN double nCr2O3;
 //! Molar normalization
 EXTERN double ntotal;
 
-// CIPW norm
+// CIPW norm; molar percentage normalized
 EXTERN double Q;
 EXTERN double C;
 EXTERN double Z;
@@ -101,11 +101,43 @@ EXTERN double cc;
 EXTERN double rMgFe; // molar percentage of magnesium in ferromagnesian minerals (diopside, olivine)
 EXTERN double wMgFe; // weight percentage of magnesium in ferromagnesian minerals
 
+// CIPW norm; weight percentage normalized
+EXTERN double wQ;
+EXTERN double wC;
+EXTERN double wZ;
+EXTERN double worc;  // normally written or; this is a problem ...
+EXTERN double wab;
+EXTERN double wan;
+EXTERN double wlc;
+EXTERN double wne;
+EXTERN double wkp;
+EXTERN double wac;
+EXTERN double wns;
+EXTERN double wwo;
+EXTERN double wdi; // == en + fs as solid solution
+EXTERN double why;
+EXTERN double wol; // == fo + fa as solid solution
+EXTERN double wcs;
+EXTERN double wmt;
+EXTERN double wcm;
+EXTERN double whm;
+EXTERN double wil;
+EXTERN double wtn;
+EXTERN double wpf;
+EXTERN double wru;
+EXTERN double wap;
+EXTERN double wfr;
+EXTERN double wpr;
+EXTERN double wcc;
+
 double calculate_differentiation_index();
 void calculate_molar_composition();
 void calculate_CIPW_norm();
+
 std::string IBC_classify();
 std::string TAS_classify();
+std::string subalkaline_classify();
+std::string subalkaline_K_classify();
 
 class bad_CIPW : public std::domain_error
 {

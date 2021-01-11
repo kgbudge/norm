@@ -1,0 +1,14 @@
+name IB  #10: Rhyolite
+SiO2 73.23
+TiO2 0.24
+Al2O3 14.03
+Fe2O3 0.6
+FeO 1.7
+MnO 0.02
+MgO 0.35
+CaO 1.32
+Na2O 3.94
+K2O 4.08
+P2O5 0.05
+S 0
+Cr2O3 0

@@ -174,7 +174,7 @@ void update()
 			iter = list_store_CIPW->append();
 			row = *iter;
 			row[m_Columns.m_col_text] = "apatite";
-			row[m_Columns.m_col_number] = ap;
+			row[m_Columns.m_col_number] = wap;
 		}
 
 		if (il>0.0)
@@ -182,7 +182,7 @@ void update()
 			iter = list_store_CIPW->append();
 			row = *iter;
 			row[m_Columns.m_col_text] = "ilmenite";
-			row[m_Columns.m_col_number] = il;
+			row[m_Columns.m_col_number] = wil;
 		}
 
 		if (orc>0.0)
@@ -190,7 +190,7 @@ void update()
 			iter = list_store_CIPW->append();
 			row = *iter;
 			row[m_Columns.m_col_text] = "orthoclase";
-			row[m_Columns.m_col_number] = orc;
+			row[m_Columns.m_col_number] = worc;
 		}
 
 		if (ab>0.0)
@@ -198,7 +198,7 @@ void update()
 			iter = list_store_CIPW->append();
 			row = *iter;
 			row[m_Columns.m_col_text] = "albite";
-			row[m_Columns.m_col_number] = ab;
+			row[m_Columns.m_col_number] = wab;
 		}
 
 		if (an>0.0)
@@ -206,7 +206,7 @@ void update()
 			iter = list_store_CIPW->append();
 			row = *iter;
 			row[m_Columns.m_col_text] = "anorthite";
-			row[m_Columns.m_col_number] = an;
+			row[m_Columns.m_col_number] = wan;
 		}
 
 		if (C>0.0)
@@ -214,7 +214,7 @@ void update()
 			iter = list_store_CIPW->append();
 			row = *iter;
 			row[m_Columns.m_col_text] = "corundum";
-			row[m_Columns.m_col_number] = C;
+			row[m_Columns.m_col_number] = wC;
 		}
 
 		if (ac>0.0)
@@ -222,7 +222,7 @@ void update()
 			iter = list_store_CIPW->append();
 			row = *iter;
 			row[m_Columns.m_col_text] = "acmite";
-			row[m_Columns.m_col_number] = ac;
+			row[m_Columns.m_col_number] = wac;
 		}
 
 		if (ns>0.0)
@@ -230,7 +230,7 @@ void update()
 			iter = list_store_CIPW->append();
 			row = *iter;
 			row[m_Columns.m_col_text] = "sodium metasilicate";
-			row[m_Columns.m_col_number] = ns;
+			row[m_Columns.m_col_number] = wns;
 		}
 
 		if (mt>0.0)
@@ -238,7 +238,7 @@ void update()
 			iter = list_store_CIPW->append();
 			row = *iter;
 			row[m_Columns.m_col_text] = "magnetite";
-			row[m_Columns.m_col_number] = mt;
+			row[m_Columns.m_col_number] = wmt;
 		}
 
 		if (hm>0.0)
@@ -246,7 +246,7 @@ void update()
 			iter = list_store_CIPW->append();
 			row = *iter;
 			row[m_Columns.m_col_text] = "hematite";
-			row[m_Columns.m_col_number] = hm;
+			row[m_Columns.m_col_number] = whm;
 		}
 
 		if (di>0.0)
@@ -254,7 +254,7 @@ void update()
 			iter = list_store_CIPW->append();
 			row = *iter;
 			row[m_Columns.m_col_text] = "augite ("+sMgFe+')';
-			row[m_Columns.m_col_number] = di;
+			row[m_Columns.m_col_number] = wdi;
 		}
 
 		if (wo>0.0)
@@ -262,7 +262,7 @@ void update()
 			iter = list_store_CIPW->append();
 			row = *iter;
 			row[m_Columns.m_col_text] = "wollastonite";
-			row[m_Columns.m_col_number] = wo;
+			row[m_Columns.m_col_number] = wwo;
 		}
 
 		if (hy>0.0)
@@ -270,7 +270,7 @@ void update()
 			iter = list_store_CIPW->append();
 			row = *iter;
 			row[m_Columns.m_col_text] = "hypersthene ("+sMgFe+')';
-			row[m_Columns.m_col_number] = hy;
+			row[m_Columns.m_col_number] = why;
 		}
 
 		if (Q>0.0)
@@ -278,7 +278,7 @@ void update()
 			iter = list_store_CIPW->append();
 			row = *iter;
 			row[m_Columns.m_col_text] = "quartz";
-			row[m_Columns.m_col_number] = Q;
+			row[m_Columns.m_col_number] = wQ;
 		}
 
 		if (ol>0.0)
@@ -286,7 +286,7 @@ void update()
 			iter = list_store_CIPW->append();
 			row = *iter;
 			row[m_Columns.m_col_text] = "olivine ("+sMgFe+')';
-			row[m_Columns.m_col_number] = ol;
+			row[m_Columns.m_col_number] = wol;
 		}
 
 		if (tn>0.0)
@@ -294,7 +294,7 @@ void update()
 			iter = list_store_CIPW->append();
 			row = *iter;
 			row[m_Columns.m_col_text] = "sphene";
-			row[m_Columns.m_col_number] = tn;
+			row[m_Columns.m_col_number] = wtn;
 		}
 
 		if (ru>0.0)
@@ -302,7 +302,7 @@ void update()
 			iter = list_store_CIPW->append();
 			row = *iter;
 			row[m_Columns.m_col_text] = "rutile";
-			row[m_Columns.m_col_number] = ru;
+			row[m_Columns.m_col_number] = wru;
 		}
 
 		if (pf>0.0)
@@ -310,7 +310,7 @@ void update()
 			iter = list_store_CIPW->append();
 			row = *iter;
 			row[m_Columns.m_col_text] = "perovskite";
-			row[m_Columns.m_col_number] = pf;
+			row[m_Columns.m_col_number] = wpf;
 		}
 
 		if (ne>0.0)
@@ -318,7 +318,7 @@ void update()
 			iter = list_store_CIPW->append();
 			row = *iter;
 			row[m_Columns.m_col_text] = "nepheline";
-			row[m_Columns.m_col_number] = ne;
+			row[m_Columns.m_col_number] = wne;
 		}
 
 		if (lc>0.0)
@@ -326,7 +326,7 @@ void update()
 			iter = list_store_CIPW->append();
 			row = *iter;
 			row[m_Columns.m_col_text] = "leucite";
-			row[m_Columns.m_col_number] = lc;
+			row[m_Columns.m_col_number] = wlc;
 		}
 
 		if (cs>0.0)
@@ -334,7 +334,7 @@ void update()
 			iter = list_store_CIPW->append();
 			row = *iter;
 			row[m_Columns.m_col_text] = "calcium orthosilicate";
-			row[m_Columns.m_col_number] = cs;
+			row[m_Columns.m_col_number] = wcs;
 		}
 
 		if (pr>0.0)
@@ -342,7 +342,7 @@ void update()
 			iter = list_store_CIPW->append();
 			row = *iter;
 			row[m_Columns.m_col_text] = "pyrite";
-			row[m_Columns.m_col_number] = pr;
+			row[m_Columns.m_col_number] = wpr;
 		}
 
 		if (cm>0.0)
@@ -350,7 +350,7 @@ void update()
 			iter = list_store_CIPW->append();
 			row = *iter;
 			row[m_Columns.m_col_text] = "chromite";
-			row[m_Columns.m_col_number] = cm;
+			row[m_Columns.m_col_number] = wcm;
 		}
 
 		if (kp>0.0)
@@ -358,7 +358,7 @@ void update()
 			iter = list_store_CIPW->append();
 			row = *iter;
 			row[m_Columns.m_col_text] = "kaliophilite";
-			row[m_Columns.m_col_number] = kp;
+			row[m_Columns.m_col_number] = wkp;
 		}
 
 		// Determine the TAS classification

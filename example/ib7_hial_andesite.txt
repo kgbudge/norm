@@ -1,0 +1,14 @@
+name IB  #7: High-aluminum andesite
+SiO2 58.65
+TiO2 0.79
+Al2O3 17.43
+Fe2O3 3.21
+FeO 3.48
+MnO 0.1
+MgO 3.28
+CaO 6.26
+Na2O 3.82
+K2O 1.99
+P2O5 0.18
+S 0
+Cr2O3 0

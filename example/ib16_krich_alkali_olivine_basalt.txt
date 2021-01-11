@@ -1,0 +1,14 @@
+name IB  #16: K-rich alkali olivine basalt
+SiO2 42.43
+TiO2 4.11
+Al2O3 14.15
+Fe2O3 5.84
+FeO 8.48
+MnO 0.17
+MgO 6.71
+CaO 11.91
+Na2O 2.77
+K2O 2.04
+P2O5 0.58
+S 0
+Cr2O3 0

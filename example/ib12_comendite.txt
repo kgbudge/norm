@@ -1,0 +1,14 @@
+name IB  #12: Comendite
+SiO2 75.23
+TiO2 0.13
+Al2O3 11.99
+Fe2O3 0.9
+FeO 1.25
+MnO 0.08
+MgO 0.02
+CaO 0.27
+Na2O 4.79
+K2O 4.67
+P2O5 0.09
+S 0
+Cr2O3 0
