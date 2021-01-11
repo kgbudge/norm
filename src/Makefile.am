@@ -23,7 +23,9 @@ norm_SOURCES = \
 	main.cc \
 	calculate_molar_composition.cc \
         calculate_CIPW_norm.cc \
-	calculate_differentiation_index.cc
+	calculate_differentiation_index.cc \
+	TAS_classify.cc
+
 
 norm_LDFLAGS = 
 
