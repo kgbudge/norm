@@ -367,23 +367,7 @@ void update()
 
 		// Determine the IBC classification
 
-		if (nNa2O + nK2O > nAl2O3)
-		{
-			text_ibc_family->set_text("PERALKALINE");
-		}
-		else
-		{
-			double A = 100*(Na2O + K2O)/wtotal;
-			double bSiO2 = 39.0 + A*(3.9492 + A*(-2.1111 + A*(0.86096 + A*(-0.15188 + A*(1.2030e-2 + A*(-3.3539e-4))))));
-			if (SiO2*100/wtotal<bSiO2)
-			{
-				text_ibc_family->set_text("ALKALINE");
-			}
-			else
-			{
-				text_ibc_family->set_text("SUBALKALINE");
-			}
-		}
+		text_ibc_family->set_text(IBC_classify());
 
 		// Determine IUGS classification
 

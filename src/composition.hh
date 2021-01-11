@@ -104,6 +104,7 @@ EXTERN double wMgFe; // weight percentage of magnesium in ferromagnesian mineral
 double calculate_differentiation_index();
 void calculate_molar_composition();
 void calculate_CIPW_norm();
+std::string IBC_classify();
 std::string TAS_classify();
 
 class bad_CIPW : public std::domain_error
