@@ -1,0 +1,14 @@
+name IB  #19: Mugearite
+SiO2 49.68
+TiO2 2.13
+Al2O3 16.96
+Fe2O3 1.45
+FeO 8.99
+MnO 0.27
+MgO 2.79
+CaO 5.46
+Na2O 5.78
+K2O 1.9
+P2O5 0.48
+S 0
+Cr2O3 0

@@ -113,8 +113,21 @@ std::string IBC_classify()
 				{
 					return "alkali basalt";
 				}
+				else if (CI >= 50 - P)
+				{
+					return "hawaiite";
+				}
+				else if (CI >= 30 - P)
+				{
+					return "mugearite";
+				}
+				else if (CI >= 20 - P)
+				{
+					return "benmoreite";
+				}
 				else
 				{
+					return "sodic trachyte";
 				}
 			}
 			else
@@ -132,8 +145,17 @@ std::string IBC_classify()
 				{
 					return "alkali basalt";
 				}
+				else if (CI >= 40 - P)
+				{
+					return "trachybasalt";
+				}
+				else if (CI >= 20 - P)
+				{
+					return "tristanite";
+				}
 				else
 				{
+					return "trachyte";
 				}
 			}
 		}

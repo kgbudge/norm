@@ -1,0 +1,14 @@
+name IB  #22: Trachyte
+SiO2 60.7
+TiO2 0.5
+Al2O3 20.5
+Fe2O3 2.3
+FeO 0.4
+MnO 0.2
+MgO 0.2
+CaO 1.4
+Na2O 6.2
+K2O 6.7
+P2O5 0.03
+S 0
+Cr2O3 0

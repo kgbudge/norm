@@ -26,7 +26,20 @@ norm_SOURCES = \
 	calculate_differentiation_index.cc \
 	TAS_classify.cc \
 	IBC_classify.cc \
-	subalkaline_classify.cc
+	subalkaline_classify.cc \
+	on_new.cc \
+	on_open.cc \
+	update.cc \
+	on_save.cc \
+	do_save.cc \
+	on_save_as.cc \
+	normalize.cc \
+	read_weight_composition.cc \
+	populate_mole_composition_box.cc \
+	populate_CIPW_norm_box.cc \
+	clear_CIPW_norm_box.cc \
+	clear_cation_norm_box.cc \
+	populate_cation_norm_box.cc
 
 
 norm_LDFLAGS = 

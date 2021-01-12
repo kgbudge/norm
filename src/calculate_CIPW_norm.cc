@@ -239,9 +239,9 @@ void calculate_CIPW_norm()
 		}
 		else
 		{
-			ol = hy;
+			ol = hy/2;
+			D -= hy/2;
 			hy = 0.0;
-			D -= ol/2;
 		}
 
 		// 21.
@@ -408,7 +408,7 @@ void calculate_CIPW_norm()
 	ns *= 3;
 	mt *= 3;
 	hm *= 2;
-	di *= 3;
+	di *= 4;
 	wo *= 2;
 	hy *= 2;
 	Q *= 1;

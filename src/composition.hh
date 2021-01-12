@@ -26,11 +26,6 @@
 #ifndef EXTERN
 #define EXTERN extern
 #endif
-//! Name of the sample file
-EXTERN std::string file;
-//! Name of the sample
-EXTERN std::string name;
-
 
 //! Weight composition of the sample being analyzed. Not necessarily normalized.
 EXTERN double SiO2;
@@ -144,7 +139,5 @@ class bad_CIPW : public std::domain_error
   public:
     bad_CIPW(std::string const &msg) : std::domain_error(msg) {}
 };
-
-#undef EXTERN
 
 #endif
